@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "IFNode",
+    "slug": "ifnode",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "ifnode",
+    "platforms": ["ios", "android"],
+    "userInterfaceStyle": "automatic",
+    "jsEngine": "hermes",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/your-project-id",
+      "enabled": true,
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.ifmedium.ifnode"
+    },
+    "android": {
+      "package": "com.ifmedium.ifnode"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id"
+      }
+    }
+  }
+}
