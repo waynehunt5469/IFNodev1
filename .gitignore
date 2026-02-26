@@ -3,3 +3,15 @@ node_modules/
 .dist/
 .env*
 *.log
+
+# build outputs
+/dist
+
+# backups
+*.bak
+
+# expo local
+.expo/
+
+# deps
+node_modules/
