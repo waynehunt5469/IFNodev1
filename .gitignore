@@ -1,0 +1,17 @@
+node_modules/
+.expo/
+.dist/
+.env*
+*.log
+
+# build outputs
+/dist
+
+# backups
+*.bak
+
+# expo local
+.expo/
+
+# deps
+node_modules/
